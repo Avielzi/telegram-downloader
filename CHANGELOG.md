@@ -1,114 +1,39 @@
-# 📋 היסטוריית גרסאות
+# Changelog
 
-**Created by Aviel.AI**
+All notable changes to this project will be documented in this file.
 
----
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [2.1.1] - 2026-02-08
+### Fixed
+- `KeyError: 'type'` when displaying files in the table view.
+- `QFont::setPointSize` errors on certain system configurations.
+- Improved support for all media types during scanning.
 
 ## [2.1.0] - 2026-02-08
+### Fixed
+- Completely resolved the `asyncio event loop is already running` error by ensuring each thread manages its own client and event loop.
+- Improved scanning stability and prevented crashes on large channels.
+- Enhanced download performance and reliability.
 
-### 🔧 תיקון AsyncIO - Critical Fix
+### Added
+- Each download and scan operation now runs in a fully independent thread.
+- Implemented automatic `disconnect()` after each client operation to free up resources.
 
-#### 🐛 תוקן
-- **שגיאת AsyncIO event loop** - תוקנה לחלוטין
-  - הבעיה: Client משותף בין threads
-  - הפתרון: כל thread יוצר client משלו
-- **קריסות בסריקה** - לא עוד!
-- **קריסות בהורדה** - נפתרו
-- **ניהול זיכרון** - משופר
+## [2.0.0] - 2026-01-15
+### Changed
+- Complete UI rewrite using **PyQt6**, featuring a modern sidebar navigation, advanced filters, and a professional table view for media.
+- Major stability improvements: API authentication now gates scanning, scan results are serialized to prevent data loss, and downloads refetch by message ID for better reliability.
 
-#### ✨ שיפורים
-- כל thread עצמאי לחלוטין
-- disconnect אוטומטי אחרי פעולה
-- ניקוי event loops נכון
-- ביצועים טובים יותר
+### Added
+- Multi-language support for English, Hebrew, Spanish, Russian, and Arabic.
+- A new visual selection interface to choose files before downloading.
 
-#### 📝 טכני
-- `AuthThread` - יוצר client משלו
-- `ScanThread` - יוצר client משלו
-- `DownloadThread` - יוצר client משלו
-- אין יותר `self.client` משותף
-
----
-
-## [2.0.0] - 2026-02-07
-
-### 🎉 גרסה מרכזית - מהדורה בינלאומית
-
-#### ✨ נוסף
-- **5 שפות** - אנגלית, עברית, ספרדית, רוסית, ערבית
-- **עיצוב חדש** - Material Design
-- **סריקה חכמה** - ראה קבצים לפני הורדה
-- **בחירה ויזואלית** - צ'קבוקס
-- **סינון** - לפי סוג קובץ
-- **מסיר התקנה** - הסרה נקייה
-- **מערכת i18n** - תרגומים מודולריים
-
-#### 🔧 שופר
-- ביצועים - async מלא
-- ממשק - 4 שלבים
-- שגיאות - טיפול טוב יותר
-
-#### 🐛 תוקן
-- AsyncIO errors (חלקי)
-- AttributeError בחלון אימות
-- UI blocking
-
----
-
-## [1.1.0] - 2026-02-07
-
-### 🔧 תיקונים
-
-#### 🐛 תוקן
-- AsyncIO event loop (חלקי)
-- חלון אימות
-- טיפול בשגיאות
-
-#### ✨ נוסף
-- תמיכה חלקית ב-2FA
-- חלון קוד אימות
-
----
-
-## [1.0.0] - 2026-01-15
-
-### 🎉 שחרור ראשוני
-
-#### ✨ תכונות
-- הורדת מדיה מטלגרם
-- חיבור ל-API
-- ממשק גרפי בעברית
-- אחסון credentials
-- בחירת תיקיית יעד
-
----
-
-## 🔮 מתוכנן
-
-### גרסה 2.2:
-- [ ] Resume downloads
-- [ ] היסטוריית הורדות
-- [ ] חיפוש מתקדם
-- [ ] Dark mode
-- [ ] תמונות ממוזערות
-
-### עתיד רחוק:
-- [ ] אפליקציית מובייל
-- [ ] בוט טלגרם
-- [ ] Cloud storage integration
-- [ ] Linux/macOS support
-
----
-
-## 📊 סיכום גרסאות
-
-| גרסה | תאריך | הדגשים |
-|------|-------|---------|
-| **2.1** | 2026-02-08 | תיקון AsyncIO |
-| 2.0 | 2026-02-07 | רב-לשוני, UI חדש |
-| 1.1 | 2026-02-07 | תיקונים |
-| 1.0 | 2026-01-15 | שחרור ראשוני |
-
----
-
-**Created by Aviel.AI** ❤️
+## [1.0.0] - 2025-12-01
+### Added
+- Initial release of Telegram Downloader.
+- Basic functionality for downloading media from public Telegram channels.
+- User interface built with Tkinter.
