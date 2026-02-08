@@ -244,3 +244,5 @@ Give a ⭐ if this project helped you!
 [⬆ חזרה למעלה](#-telegram-downloader)
 
 </div>
+
+<!-- Updated author configuration -->
