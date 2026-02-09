@@ -39,7 +39,7 @@
 
 ### 📸 Screenshots & Demo
 
-*(To be added: Please replace this section with actual screenshots or a GIF demonstrating the application's UI and functionality. For example, show the main window, scanning process, filtering options, and download progress.)*
+*(To be added.)*
 
 ### 📦 Installation
 
