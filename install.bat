@@ -6,7 +6,7 @@ cls
 
 echo.
 echo ========================================
-echo   Telegram Downloader v2.0
+echo   Telegram Downloader v3.5
 echo   Installation
 echo   Created by Aviel.AI
 echo ========================================

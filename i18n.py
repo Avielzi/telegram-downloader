@@ -65,7 +65,7 @@ BUILT_IN_TRANSLATIONS = {
         
         # App info
         "app_name": "Telegram Downloader",
-        "app_version": "v2.0",
+        "app_version": "v3.5",
         "created_by": "Created by Aviel.AI",
         "license": "MIT License - Free & Open Source",
         
@@ -169,7 +169,7 @@ BUILT_IN_TRANSLATIONS = {
         # About dialog
         "about_title": "About Telegram Downloader",
         "about_text": """
-        <h2>Telegram Downloader v2.0</h2>
+        <h2>Telegram Downloader v3.5</h2>
         <p><b>Created by: Aviel.AI</b></p>
         <p>An open-source tool for downloading media from Telegram groups and channels</p>
         <br>
@@ -202,7 +202,7 @@ BUILT_IN_TRANSLATIONS = {
         
         # App info
         "app_name": "מוריד טלגרם",
-        "app_version": "גרסה 2.0",
+        "app_version": "גרסה 3.5",
         "created_by": "נוצר על ידי Aviel.AI",
         "license": "רישיון MIT - חינמי וקוד פתוח",
         
@@ -341,7 +341,7 @@ BUILT_IN_TRANSLATIONS = {
         
         # App info
         "app_name": "Descargador de Telegram",
-        "app_version": "v2.0",
+        "app_version": "v3.5",
         "created_by": "Creado por Aviel.AI",
         "license": "Licencia MIT - Gratis y de Código Abierto",
         
@@ -478,7 +478,7 @@ BUILT_IN_TRANSLATIONS = {
         
         # App info
         "app_name": "Загрузчик Telegram",
-        "app_version": "v2.0",
+        "app_version": "v3.5",
         "created_by": "Создано Aviel.AI",
         "license": "Лицензия MIT - Бесплатно и с Открытым Кодом",
         

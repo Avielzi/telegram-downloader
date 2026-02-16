@@ -1,6 +1,6 @@
 
 """
-Telegram Downloader v3.4 (UI 2026-ready) - PyQt6
+Telegram Downloader v3.5 (UI 2026-ready) - PyQt6
 - File Type Filters (Photos, Videos, etc.)
 - Sequential Download Queue (Auto-start next)
 - Language Selector (Hebrew/English)
@@ -54,7 +54,7 @@ except Exception:
 
 APP_ORG = "TelegramDownloader"
 APP_NAME = "TelegramDownloader"
-APP_VERSION = "3.4"
+APP_VERSION = "3.5"
 
 
 # ----------------------------

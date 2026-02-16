@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.1.1-blue)
+![Version](https://img.shields.io/badge/version-3.5.0-blue)
 ![Python](https://img.shields.io/badge/python-3.8+-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
@@ -46,7 +46,7 @@
 To get started with Telegram Downloader, follow these steps:
 
 1.  **Install Python**: Ensure you have Python 3.8 or newer installed on your system. During installation, make sure to check the option 
-to "Add Python to PATH". You can download Python from [python.org](https://www.python.org/).
+to "Add Python to PATH". You can download Python from [python.org](https://www.python.org/)
 
 2.  **Clone the Repository**:
     ```bash
@@ -112,11 +112,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🙏 Credits
 
-Created with ❤️ by **[Aviel.AI](https://github.com/avielai)**.
+Created with ❤️ by **[Aviel.AI](https://github.com/Avielzi)**.
 
 Built with:
 -   [Python](https://www.python.org/)
--   [PyQt6](https://www.riverbankcomputing.com/software/pyqt/)
+-   [PyQt6](https://pypi.org/project/PyQt6/)
 -   [Telethon](https://github.com/LonamiWebs/Telethon)
 -   [cryptg](https://github.com/eternnoir/cryptg)
 
@@ -153,7 +153,7 @@ Give a ⭐ if this project helped you!
 
 כדי להתחיל להשתמש ב-Telegram Downloader, בצעו את השלבים הבאים:
 
-1.  **התקינו Python**: ודאו שמותקן לכם Python 3.8 ומעלה במערכת. במהלך ההתקנה, ודאו לסמן את האפשרות "Add Python to PATH". ניתן להוריד Python מ-[python.org](https://www.python.org/).
+1.  **התקינו Python**: ודאו שמותקן לכם Python 3.8 ומעלה במערכת. במהלך ההתקנה, ודאו לסמן את האפשרות "Add Python to PATH". ניתן להוריד Python מ-[python.org](https://www.python.org/)
 
 2.  **שכפלו את הריפוזיטורי**:
     ```bash
@@ -219,11 +219,11 @@ Give a ⭐ if this project helped you!
 
 ### 🙏 קרדיטים
 
-נוצר באהבה על ידי **[Aviel.AI](https://github.com/avielai)**.
+נוצר באהבה על ידי **[Aviel.AI](https://github.com/Avielzi)**.
 
 נבנה עם:
 -   [Python](https://www.python.org/)
--   [PyQt6](https://www.riverbankcomputing.com/software/pyqt/)
+-   [PyQt6](https://pypi.org/project/PyQt6/)
 -   [Telethon](https://github.com/LonamiWebs/Telethon)
 -   [cryptg](https://github.com/eternnoir/cryptg)
 
@@ -239,7 +239,7 @@ Give a ⭐ if this project helped you!
 
 **תודה שהשתמשת ב-Telegram Downloader!**
 
-**נוצר באהבה על ידי [Aviel.AI](https://github.com/avielai)** ❤️
+**נוצר באהבה על ידי [Aviel.AI](https://github.com/Avielzi)** ❤️
 
 [⬆ חזרה למעלה](#-telegram-downloader)
 

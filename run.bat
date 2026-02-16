@@ -1,10 +1,10 @@
 @echo off
-title Telegram Downloader v2.1
+title Telegram Downloader v3.5
 chcp 65001 >nul
 cls
 echo.
 echo ========================================
-echo   Telegram Downloader v2.1
+echo   Telegram Downloader v3.5
 echo   Created by Aviel.AI
 echo ========================================
 echo.
