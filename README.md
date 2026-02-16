@@ -46,7 +46,7 @@
 To get started with Telegram Downloader, follow these steps:
 
 1.  **Install Python**: Ensure you have Python 3.8 or newer installed on your system. During installation, make sure to check the option 
-to "Add Python to PATH". You can download Python from [python.org](https://www.python.org/)
+to "Add Python to PATH". You can download Python from [python.org](https://www.python.org)
 
 2.  **Clone the Repository**:
     ```bash
@@ -115,7 +115,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Created with ❤️ by **[Aviel.AI](https://github.com/Avielzi)**.
 
 Built with:
--   [Python](https://www.python.org/)
+-   [Python](https://www.python.org)
 -   [PyQt6](https://pypi.org/project/PyQt6/)
 -   [Telethon](https://github.com/LonamiWebs/Telethon)
 -   [cryptg](https://github.com/eternnoir/cryptg)
@@ -153,7 +153,7 @@ Give a ⭐ if this project helped you!
 
 כדי להתחיל להשתמש ב-Telegram Downloader, בצעו את השלבים הבאים:
 
-1.  **התקינו Python**: ודאו שמותקן לכם Python 3.8 ומעלה במערכת. במהלך ההתקנה, ודאו לסמן את האפשרות "Add Python to PATH". ניתן להוריד Python מ-[python.org](https://www.python.org/)
+1.  **התקינו Python**: ודאו שמותקן לכם Python 3.8 ומעלה במערכת. במהלך ההתקנה, ודאו לסמן את האפשרות "Add Python to PATH". ניתן להוריד Python מ-[python.org](https://www.python.org)
 
 2.  **שכפלו את הריפוזיטורי**:
     ```bash
@@ -222,7 +222,7 @@ Give a ⭐ if this project helped you!
 נוצר באהבה על ידי **[Aviel.AI](https://github.com/Avielzi)**.
 
 נבנה עם:
--   [Python](https://www.python.org/)
+-   [Python](https://www.python.org)
 -   [PyQt6](https://pypi.org/project/PyQt6/)
 -   [Telethon](https://github.com/LonamiWebs/Telethon)
 -   [cryptg](https://github.com/eternnoir/cryptg)
