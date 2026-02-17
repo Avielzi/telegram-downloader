@@ -19,7 +19,7 @@ This guide provides solutions to common issues you might encounter while using T
 ### Issue: "AsyncIO event loop" errors
 
 **Solution:**
-This version (v2.1.1) has significantly improved AsyncIO handling. If you still encounter this error:
+This version (v3.5.0) has significantly improved AsyncIO handling. If you still encounter this error:
 1.  **Repair Installation**: Double-click `repair.bat` (Windows) or run `pip install -r requirements.txt --upgrade` (cross-platform) to reinstall all dependencies.
 2.  **Restart Application**: Close and restart Telegram Downloader.
 
@@ -76,7 +76,7 @@ If you've tried the solutions above and are still experiencing issues, please:
 ### בעיה: שגיאות "AsyncIO event loop"
 
 **פתרון:**
-גרסה זו (v2.1.1) שיפרה משמעותית את הטיפול ב-AsyncIO. אם אתם עדיין נתקלים בשגיאה זו:
+גרסה זו (v3.5.0) שיפרה משמעותית את הטיפול ב-AsyncIO. אם אתם עדיין נתקלים בשגיאה זו:
 1.  **תיקון התקנה**: לחצו לחיצה כפולה על `repair.bat` (Windows) או הריצו `pip install -r requirements.txt --upgrade` (קרוס-פלטפורמה) כדי להתקין מחדש את כל התלויות.
 2.  **הפעלה מחדש של היישום**: סגרו והפעילו מחדש את Telegram Downloader.
 

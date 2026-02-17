@@ -6,8 +6,8 @@ We currently support the following versions of Telegram Downloader with security
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.1.x   | ✅ Yes             |
-| < 2.1.0 | ❌ No              |
+| 3.5.x   | ✅ Yes             |
+| < 3.5.0 | ❌ No              |
 
 We encourage all users to upgrade to the latest stable version to ensure they receive the most up-to-date security patches and features.
 
@@ -48,8 +48,8 @@ To ensure the security of your Telegram Downloader installation and data, we rec
 
 | גרסה | נתמכת             |
 | ----- | ----------------- |
-| 2.1.x | ✅ כן             |
-| < 2.1.0 | ❌ לא             |
+| 3.5.x | ✅ כן             |
+| < 3.5.0 | ❌ לא             |
 
 אנו ממליצים לכל המשתמשים לשדרג לגרסה היציבה האחרונה כדי להבטיח שהם מקבלים את תיקוני האבטחה והתכונות העדכניים ביותר.
 

@@ -307,7 +307,7 @@ BUILT_IN_TRANSLATIONS = {
         "about_title": "אודות מוריד טלגרם",
         "about_text": """
         <div dir="rtl">
-        <h2>מוריד טלגרם גרסה 2.0</h2>
+        <h2>מוריד טלגרם גרסה 3.5</h2>
         <p><b>נוצר על ידי: Aviel.AI</b></p>
         <p>כלי קוד פתוח להורדת מדיה מקבוצות וערוצי טלגרם</p>
         <br>
@@ -445,7 +445,7 @@ BUILT_IN_TRANSLATIONS = {
         # About dialog
         "about_title": "Acerca de Descargador de Telegram",
         "about_text": """
-        <h2>Descargador de Telegram v2.0</h2>
+        <h2>Descargador de Telegram v3.5</h2>
         <p><b>Creado por: Aviel.AI</b></p>
         <p>Una herramienta de código abierto para descargar medios de grupos y canales de Telegram</p>
         <br>
@@ -582,7 +582,7 @@ BUILT_IN_TRANSLATIONS = {
         # About dialog
         "about_title": "О Загрузчике Telegram",
         "about_text": """
-        <h2>Загрузчик Telegram v2.0</h2>
+        <h2>Загруזчик Telegram v3.5</h2>
         <p><b>Создано: Aviel.AI</b></p>
         <p>Инструмент с открытым исходным кодом для загрузки медиа из групп и каналов Telegram</p>
         <br>
@@ -615,7 +615,7 @@ BUILT_IN_TRANSLATIONS = {
         
         # App info
         "app_name": "محمل تيليجرام",
-        "app_version": "الإصدار 2.0",
+        "app_version": "الإصدار 3.5",
         "created_by": "تم الإنشاء بواسطة Aviel.AI",
         "license": "رخصة MIT - مجاني ومفتوح المصدر",
         

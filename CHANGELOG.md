@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.5.0] - 2026-02-16
+### Added
+- Complete UI/UX overhaul with modern gradients and Material Design.
+- New Pause/Resume functionality for downloads.
+- Real-time download speed and ETA indicators.
+- Colorful icons for different file types in the table view.
+- Improved multi-selection (Shift + Click) support.
+- Full alignment of versions across all documentation and scripts.
+
+### Fixed
+- Cleaned up broken links in README.md.
+- Synchronized dependencies between setup.py and requirements.txt.
+- Fixed version inconsistencies in i18n and documentation.
+
 ## [2.1.1] - 2026-02-08
 ### Fixed
 - `KeyError: 'type'` when displaying files in the table view.
