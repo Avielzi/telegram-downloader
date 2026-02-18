@@ -2,3 +2,7 @@ PyQt6>=6.4.0
 telethon>=1.34.0
 cryptg>=0.4.0
 humanize>=4.0.0
+win10toast>=0.9; sys_platform == 'win32'
+pillow>=10.0.0
+aiohttp>=3.8.0
+python-magic; sys_platform != 'win32'
