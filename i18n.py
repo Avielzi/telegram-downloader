@@ -48,7 +48,7 @@ BUILT_IN_TRANSLATIONS = {
     "en": {
         "language_name": "English",
         "app_name": "Telegram Downloader",
-        "app_version": "v2.2.0 ULTIMATE PRO",
+        "app_version": "v2.3.0 ULTIMATE PRO",
         "menu_settings": "Settings",
         "menu_language": "Language",
         "menu_about": "About",
@@ -123,7 +123,7 @@ BUILT_IN_TRANSLATIONS = {
     "he": {
         "language_name": "עברית",
         "app_name": "מוריד טלגרם",
-        "app_version": "גרסה 2.2.0 ULTIMATE PRO",
+        "app_version": "גרסה 2.3.0 ULTIMATE PRO",
         "menu_settings": "הגדרות",
         "menu_language": "שפה",
         "menu_about": "אודות",
