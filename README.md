@@ -1,106 +1,84 @@
-# ⚡ Telegram Downloader v2.3.0 ULTIMATE PRO
+# ⚡ Telegram Downloader ULTIMATE PRO v2.3.0
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.3.0_ULTIMATE_PRO-gold)
-![Status](https://img.shields.io/badge/status-stable-green)
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub Repo stars](https://img.shields.io/github/stars/Avielzi/telegram-downloader?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Avielzi/telegram-downloader?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Avielzi/telegram-downloader?style=for-the-badge&color=gold)
+![GitHub License](https://img.shields.io/github/license/Avielzi/telegram-downloader?style=for-the-badge&color=green)
 
-**The world's most advanced engine for downloading media from Telegram**
+**The most advanced, high-performance media retrieval engine for Telegram.**
 
-[English](#english) | [עברית](#hebrew)
+[English](#-english) | [עברית](#-hebrew)
+
+---
+
+![UI Mockup](assets/ui_mockup.png)
 
 </div>
 
 ---
 
-<a name="english"></a>
-## 🌍 English Description
+## 🌍 English
 
-### 🚀 What's New in ULTIMATE PRO 2.3.0
-This version introduces significant structural changes and performance optimizations, making it the most stable and efficient release yet.
+### 🚀 Overview
+**Telegram Downloader ULTIMATE PRO** is a professional-grade desktop application designed for high-speed, bulk media retrieval from Telegram channels and groups. Built with a focus on performance, security, and a premium user experience, it leverages the Telethon API and a custom-built parallel download engine to deliver unparalleled efficiency.
 
-#### 🏎️ Performance & Speed
-- **Optimized Parallel Engine:** Enhanced multi-threaded downloading for even higher speeds and better resource management.
-- **Improved Asynchronous Logic:** Refactored core threads (Auth, Scan, Download) for maximum stability.
-- **Resume Mechanism:** Robust support for continuing interrupted downloads.
-- **Real-time Stats:** Accurate tracking of download speed (KB/s) and estimated time remaining (ETA).
+### 💎 Key Features
+| Feature | Description |
+| :--- | :--- |
+| **🏎️ Parallel Engine** | Download up to 3 files simultaneously with optimized resource management. |
+| **🔄 Smart Resume** | Robust support for continuing interrupted downloads, saving time and data. |
+| **🔍 Deep Scan** | Advanced scanning algorithms to index media across thousands of messages. |
+| **🎨 Premium UI/UX** | Modern Material Design interface with full Dark Mode support and smooth transitions. |
+| **🌍 Bilingual** | Native support for English and Hebrew with real-time language switching. |
+| **🛡️ Secure & Local** | All session data and media are stored locally on your machine. No cloud storage. |
 
-#### 🎨 Interface & UX (PRO UX)
-- **Refined UI/UX:** Smoother transitions and updated stylesheets for a cleaner look.
-- **Dark Mode:** Full support for a dark theme for comfortable nighttime use.
-- **Smart Search & Filtering:** Efficiently find and filter media within scan results.
+### 🛠️ Technical Stack
+- **Language:** Python 3.10+
+- **GUI Framework:** PyQt6 (Modern, responsive desktop interface)
+- **API Engine:** Telethon (Asynchronous Telegram API client)
+- **Networking:** AsyncIO (High-concurrency operations)
+- **Styling:** Custom QSS (Advanced dark/light theme engine)
 
-#### 🔧 Technical Improvements
-- **Modernized Dependencies:** Updated to the latest stable versions of PyQt6 and Telethon.
-- **Enhanced Error Handling:** More descriptive error messages and resilient connection handling.
-- **Code Quality:** Clean architecture with better decoupling between UI and logic.
-
----
-
-### 🌟 Core Features
-- Bulk download from groups and channels.
-- Smart filtering by images, videos, documents, and archives.
-- Full support for 2FA (Two-Factor Authentication).
-- Material Design ULTIMATE interface.
-- Maximum security - all data is stored locally only.
+### 📦 Quick Start
+1. **Prerequisites:** Install [Python 3.10+](https://www.python.org/downloads/).
+2. **Clone:** `git clone https://github.com/Avielzi/telegram-downloader.git`
+3. **Setup:** Run `install.bat` to automatically configure the environment.
+4. **Launch:** Run `run.bat` to start the ULTIMATE PRO experience.
 
 ---
 
-### 🚀 Installation & Usage
-1. Ensure **Python 3.10+** is installed.
-2. Run `install.bat` to install dependencies.
-3. Run `run.bat` to launch the ULTIMATE PRO version.
+## 🇮🇱 Hebrew
+
+### 🚀 סקירה כללית
+**Telegram Downloader ULTIMATE PRO** היא אפליקציית שולחן עבודה מקצועית שתוכננה להורדה המונית ומהירה של מדיה מערוצים וקבוצות בטלגרם. האפליקציה נבנתה עם דגש על ביצועים, אבטחה וחוויית משתמש יוקרתית, תוך שימוש ב-API של Telethon ומנוע הורדה מקבילי שפותח במיוחד ליעילות מקסימלית.
+
+### 💎 תכונות מרכזיות
+| תכונה | תיאור |
+| :--- | :--- |
+| **🏎️ מנוע מקבילי** | הורדה של עד 3 קבצים בו-זמנית עם ניהול משאבים אופטימלי. |
+| **🔄 המשך חכם** | תמיכה חזקה בהמשך הורדות שהופסקו, לחיסכון בזמן ובנתונים. |
+| **🔍 סריקה עמוקה** | אלגוריתמי סריקה מתקדמים לאינדוקס מדיה לאורך אלפי הודעות. |
+| **🎨 ממשק פרימיום** | ממשק Material Design מודרני עם תמיכה מלאה במצב כהה ומעברים חלקים. |
+| **🌍 דו-לשוני** | תמיכה מובנית בעברית ובאנגלית עם החלפת שפה בזמן אמת. |
+| **🛡️ מאובטח ומקומי** | כל נתוני הסשן והמדיה נשמרים מקומית על המחשב שלך בלבד. |
+
+### 🛠️ ארכיטקטורה טכנולוגית
+- **שפה:** Python 3.10+
+- **ממשק משתמש:** PyQt6 (ממשק דסקטופ מודרני ורספונסיבי)
+- **מנוע API:** Telethon (לקוח אסינכרוני ל-API של טלגרם)
+- **תקשורת:** AsyncIO (פעולות במקביליות גבוהה)
+- **עיצוב:** Custom QSS (מנוע ערכות נושא מתקדם)
+
+### 📦 מדריך מהיר
+1. **דרישות קדם:** התקן [Python 3.10+](https://www.python.org/downloads/).
+2. **שיבוט:** `git clone https://github.com/Avielzi/telegram-downloader.git`
+3. **הגדרה:** הרץ את `install.bat` להגדרה אוטומטית של הסביבה.
+4. **הפעלה:** הרץ את `run.bat` כדי להתחיל להשתמש בגרסת ה-ULTIMATE PRO.
 
 ---
 
-### 📜 License
-MIT License - Free to use and modify.
-Copyright (c) 2026 Aviel.AI
-
----
-
-<a name="hebrew"></a>
-## 🇮🇱 תיאור בעברית
-
-### 🚀 מה חדש בגרסת ULTIMATE PRO 2.3.0
-גרסה זו מציגה שינויים מבניים משמעותיים ואופטימיזציות בביצועים, מה שהופך אותה לגרסה היציבה והיעילה ביותר עד כה.
-
-#### 🏎️ ביצועים ומהירות
-- **מנוע מקבילי אופטימלי:** שיפור בהורדה מרובת תהליכים למהירות גבוהה יותר וניהול משאבים טוב יותר.
-- **לוגיקה אסינכרונית משופרת:** שכתוב של תהליכי הליבה (אימות, סריקה, הורדה) ליציבות מקסימלית.
-- **מנגנון Resume:** תמיכה חזקה בהמשך הורדות שהופסקו.
-- **סטטיסטיקות אמת:** מעקב מדויק אחר מהירות הורדה (KB/s) וזמן נותר משוער (ETA).
-
-#### 🎨 ממשק וחווית משתמש (PRO UX)
-- **UI/UX מעודכן:** מעברים חלקים יותר ועיצוב נקי ומקצועי יותר.
-- **מצב כהה (Dark Mode):** תמיכה מלאה בערכת נושא כהה לעבודה נוחה בלילה.
-- **חיפוש וסינון חכם:** מציאה וסינון יעילים של מדיה בתוך תוצאות הסריקה.
-
-#### 🔧 שיפורים טכניים
-- **תלויות מודרניות:** עדכון לגרסאות היציבות האחרונות של PyQt6 ו-Telethon.
-- **טיפול בשגיאות משופר:** הודעות שגיאה מפורטות יותר וטיפול עמיד יותר בחיבורים.
-- **איכות קוד:** ארכיטקטורה נקייה עם הפרדה טובה יותר בין ממשק המשתמש ללוגיקה.
-
----
-
-### 🌟 תכונות ליבה
-- הורדה המונית מקבוצות וערוצים.
-- סינון חכם לפי תמונות, וידאו, מסמכים וארכיונים.
-- תמיכה מלאה ב-2FA (אימות דו-שלבי).
-- ממשק Material Design ULTIMATE.
-- אבטחה מקסימלית - כל המידע נשמר מקומית בלבד.
-
----
-
-### 🚀 התקנה והפעלה
-1. וודא שמותקן **Python 3.10+**.
-2. הרץ את `install.bat` להתקנת הספריות.
-3. הרץ את `run.bat` להפעלת גרסת ה-ULTIMATE PRO.
-
----
-
-### 📜 רישיון
-MIT License - חופשי לשימוש ושינוי.
-Copyright (c) 2026 Aviel.AI
+### 📜 License & Copyright
+Distributed under the MIT License. See `LICENSE` for more information.
+Copyright © 2026 **Aviel.AI**. Built with ❤️ for the community.
