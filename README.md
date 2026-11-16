@@ -4,7 +4,7 @@
 
 # 🚀 Telegram Downloader Ultimate Pro
 
-### **The Most Powerful, Parallel-Engine Telegram Media Downloader**
+### **A Parallel-Engine Telegram Media Downloader**
 
 [![Version](https://img.shields.io/badge/version-2.2.0_ULTIMATE_PRO-FFD700?style=for-the-badge&logo=telegram&logoColor=white)](https://github.com/Avielzi/telegram-downloader/releases)
 [![Status](https://img.shields.io/badge/status-stable-22C55E?style=for-the-badge)](https://github.com/Avielzi/telegram-downloader)
@@ -148,6 +148,10 @@ If this tool has helped you manage your Telegram media more efficiently, please 
 
 ---
 
+## ⚖️ Responsible Use
+
+This tool is intended for downloading content you own or have permission to download, for example your own chats, channels you administer, or material licensed for reuse. You are responsible for complying with Telegram's Terms of Service, copyright law, and the privacy rights of others. Do not use it to bypass access restrictions or to redistribute content without permission. This project is independent and is not affiliated with or endorsed by Telegram. The software is provided "as is", without warranty (see License).
+
 ## 📜 License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
@@ -237,6 +241,10 @@ run.bat
 ---
 
 <div align="center">
+
+## ⚖️ שימוש אחראי
+
+הכלי מיועד להורדת תכנים שבבעלותך או שיש לך רשות להוריד, למשל השיחות שלך, ערוצים שאתה מנהל, או חומרים שמורשים לשימוש חוזר. האחריות לעמידה בתנאי השימוש של Telegram, בדיני זכויות יוצרים ובפרטיות של אחרים היא עליך. אין להשתמש בכלי כדי לעקוף הגבלות גישה או להפיץ תכנים ללא רשות. הפרויקט עצמאי ואינו קשור ל-Telegram או מאושר על ידה. התוכנה מסופקת "כמות שהיא", ללא אחריות.
 
 נוצר באהבה על ידי **[Aviel.AI](https://aviel.ai)** · ישראל 🇮🇱
 
